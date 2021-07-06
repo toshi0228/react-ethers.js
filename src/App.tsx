@@ -9,6 +9,7 @@ import {
 } from "./web3";
 
 import "./App.css";
+import Ipfs from "./ipfs";
 
 const App = () => {
   const [value, setValue] = useState("");
@@ -26,6 +27,8 @@ const App = () => {
       <button onClick={onClick}>送信</button>
       <button onClick={async () => await fetchKitty()}>キティの取得</button>
       <button onClick={async () => await ipfsFunc()}>ipfsに保存</button>
+      {/*ipfsの所を追加*/}
+      <Ipfs />
     </div>
   );
 };
