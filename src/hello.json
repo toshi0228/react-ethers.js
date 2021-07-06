@@ -1,0 +1,97 @@
+{
+  "abi":[
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_greeting",
+          "type": "string"
+        }
+      ],
+      "name": "setGreeting",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "hello",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "kitty": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "addKitty",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "getKitty",
+      "outputs": [
+        {
+          "internalType": "string[]",
+          "name": "",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "ipfsAbi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "x",
+          "type": "string"
+        }
+      ],
+      "name": "setHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getHash",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "x",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
