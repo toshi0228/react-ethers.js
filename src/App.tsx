@@ -10,6 +10,7 @@ import {
 
 import "./App.css";
 import Ipfs from "./ipfs";
+import InputText from "./component/addText";
 
 const App = () => {
   const [value, setValue] = useState("");
@@ -29,6 +30,7 @@ const App = () => {
       <button onClick={async () => await ipfsFunc()}>ipfsに保存</button>
       {/*ipfsの所を追加*/}
       <Ipfs />
+      <InputText />
     </div>
   );
 };
